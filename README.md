@@ -33,7 +33,7 @@ This project demonstrates a hands-on cybersecurity home lab featuring a Web Appl
 
 ## 🧪 Lab Topology
 
-```plaintext
+```markdown
 ┌────────────┐      HTTP/HTTPS      ┌────────────┐
 │ Kali Linux │  <---------------->  │  SafeLine  │
 │  (Attacker)│                      │    WAF     │
@@ -43,3 +43,37 @@ This project demonstrates a hands-on cybersecurity home lab featuring a Web Appl
                                    │  Apache2  │
                                    │ Ubuntu VM │
                                    └───────────┘
+```
+
+---
+
+## 🚀 How I Set It Up
+
+1. Created two VMs in VirtualBox: one Kali Linux, one Ubuntu Server.
+2. Installed Apache on Ubuntu to host a demo investment website.
+3. Generated SSL certificates with OpenSSL and configured HTTPS.
+4. Installed and configured SafeLine WAF in reverse proxy mode.
+5. Simulated attacks from Kali to test WAF detection and logging.
+6. Tuned WAF rules, reviewed logs, and refined response policies.
+
+---
+
+## 📜 Learning Outcomes
+
+- Configuring and testing real-world WAFs in a safe lab.
+- Gained hands-on experience with HTTPS, reverse proxies, and traffic filtering.
+- Practical skills in scripting, Linux troubleshooting, and web server management.
+- Better understanding of attack simulation and blue team operations.
+
+---
+
+## 🚧 Next Steps
+
+- ✅ Record walkthrough demo
+- ✅ Upload screenshots from both VMs
+- ⏳ Add automated BASH or Python setup script
+- ⏳ Extend WAF rules for custom detections
+
+
+
+
