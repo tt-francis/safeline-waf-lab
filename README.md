@@ -6,7 +6,7 @@ This project demonstrates a hands-on cybersecurity home lab featuring a Web Appl
 
 ---
 
-## 📌 What This Project Covers
+## What This Project Covers
 
 - Deployment of a Web Application Firewall using [SafeLine](https://www.safeline.io)
 - Virtualization using VirtualBox
@@ -18,7 +18,7 @@ This project demonstrates a hands-on cybersecurity home lab featuring a Web Appl
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component      | Description                         |
 |----------------|-------------------------------------|
@@ -31,7 +31,7 @@ This project demonstrates a hands-on cybersecurity home lab featuring a Web Appl
 
 ---
 
-## 🧪 Lab Topology
+## Lab Topology
 
 ```markdown
 ┌────────────┐      HTTP/HTTPS      ┌────────────┐
@@ -47,7 +47,7 @@ This project demonstrates a hands-on cybersecurity home lab featuring a Web Appl
 
 ---
 
-## 🚀 How I Set It Up
+## How I Set It Up
 
 1. Created two VMs in VirtualBox: one Kali Linux, one Ubuntu Server.
 2. Installed Apache on Ubuntu to host a demo investment website.
@@ -58,7 +58,7 @@ This project demonstrates a hands-on cybersecurity home lab featuring a Web Appl
 
 ---
 
-## 📜 Learning Outcomes
+## Learning Outcomes
 
 - Configuring and testing real-world WAFs in a safe lab.
 - Gained hands-on experience with HTTPS, reverse proxies, and traffic filtering.
