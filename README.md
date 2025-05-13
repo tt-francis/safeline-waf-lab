@@ -1,4 +1,4 @@
-# 🔐 SafeLine WAF Cybersecurity Lab
+#  SafeLine WAF Cybersecurity Lab
 
 This project demonstrates a hands-on cybersecurity home lab featuring a Web Application Firewall (WAF) setup using **SafeLine**. The lab simulates a production-grade web application environment to practice network security, firewall configuration, and system hardening.
 
